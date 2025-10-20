@@ -29,9 +29,66 @@ Decreasing proportional to T^-3/2, Increasing proportional to T^3/2, Increasing 
 As temperature increase the phonon density increase and the speed of the electrons increase. Thus the mean free path of electrons colliding with phonons decrease with temperature and hence the more scattering events happen. Hint: Difference between mobility and scattering events
 
 Explain how a solar cell generates photocurrent
-Photoelectric effect generates an electron hole pair in the semiconductor which, with some probability related to depletion widht, is separated in the depletion region. Generating a current.
+Photoelectric effect and hole-pair separation in the depletion region by diffusion
+Photoelecctric effect, Photoelectric effect and hole-pair separation in the depletion region by diffusion, 
+Photoelectric effect generates an electron hole pair in the semiconductor. If these pairs are generated typically within the diffusion length of the depletion region the hole-pair is separated by the internal field in the depletion region. Hence generating a current between the two terminals. This current is called the short-circuit current. 
 
 What are the key parameters that determine the contact resistivity of an Ohmic contact?
 Doping concentration and Schottky barrier height
 Doping concentration and Schottky barrier height, Depletion width and material combination, Doping concentration and Temperature
 Although dependence of contact resistivity is determined by a lot of factors. The main ones stated in the book is that Rc is proportional to exp(k * PhiB / sqrt(Nd)), k is some constant, PhiB barrier height and Nd doping concentration. It explicitly states "Low-resistance ohmic contacts are critical to the performance of high-current devices. The key ingredient of an ohmic contact is heavy doping of the semiconductor. A low Schottky barrier height is also desirable. The carrier transport mechanism is quantum-mechanical tunneling."
+
+What is Piezoelectricity?
+A relationship between structural deformation and voltage
+A relationship between structural deformation and voltage, A relationship between structural deformation and resistivity
+A piezoelectric material generates a voltage when it is deformed. The inverse can also happen, i.e. a voltage difference generates a deformation in the material. The charge on the material is leaky and gradually leaks away and the time retentions are short usually on the order of 1s.
+
+What is Piezoresistivity?
+A relationship between structural deformation and resistivity
+A relationship between structural deformation and voltage, A relationship between structural deformation and resistivity
+The applied stress alters a materials resistivity by changing the carrier mobility, carrier concentration or the band structure of the material. I.e, the stress gives rise to changes inter-atomic spacing. Usually the resistance change in metals is mostly due to the change of geometric, i.e crossectional area, this is not piezoresistivity. Meaning for most metals the change in geometry is the dominant effect while for semiconductors the change in inter-atomic spacing will change the bandgap and subsequently the intrinsic carrier concentration.
+
+What material types can give rise to piezoelectricity?
+Singe crystal materials and polycrystalline and ceramic and polymers
+Singe crystal materials and polycrystalline and ceramic and polymers, Crystals, Metals, Singe crystal materials and polycrystalline
+Single crystal materials: Quartz, LiNbO3, LiTaO3 | Polycrystalline: ZnO, AlN | Ceramic: PZT, BSTO | Polymers: PVDF, (-CH2-CF2)n chains
+
+Piezoelectric applications?
+I know
+I know, I don't know
+
+Piezo lighter, ultrasonic cleaning bath (piezoelectric transducer), medical ultrasound scanner (pierzoelectric transducer), piezo actuator / sonar system, for generating high freq. sound such as sonar. Walking motors, crystal oscillator to control time or frequency in electrical components or clocks (quartz watch)
+
+Advantages and disadvantages for piezoelectric devices?
+I know
+I know, I don't know
++ Generates its own voltage albeit small can be used for IC and remote sensors, piezoelectric device can be scaled down into small devices. -Disadvantage, inherehntly sensitive only to time varying signals, many applications require sensitivity to static quantities. For example when weighing heavy objects.
+
+Light absorption relationship to bandgap for semiconductors
+I know
+I know, I don't know
+Lower bandgap means that a larger portion of the electromagnetic spectrum generates electron hole pairs. But since the bandgap is smaller the potential V = Eg/2q is smaller. Or a wider bandgap means that fewer electron-hole pairs can be generated but a higher voltage can be acheieved. It means that there is a optimal bandgap because electrical power is given by P = IV. 
+
+Piezoresistive applications?
+I know
+I know, I don't know
+Bro idk 
+
+Draw a schematic cross section of NVM (flash) memory and explain how it works
+I know
+I know, I don't know
+Charge is stored in the "charge storage" layer. Memory can be read by measuring 0 or 1 by checking Vt because it changes depending on amount of stored charge in the storage layer. When turning the device on with a high Vds electrons can tunnel through the thin insulating layer at remain trapped in the storage area. This is how you charge and discharge (write and erase) from memory. When no current pass through the device the storage layer remains charged for years, therefore it is non-volatile.
+images\NVM_schematic.png
+
+Draw a schematic cross section of DRAM memory and explain how it works
+I know
+I know, I don't know
+In DRAM, each memory cell stores a bit of information as electric charge in a capacitor.
+Because the capacitor slowly leaks charge over time, the memory must be continuously refreshed to preserve data. A word line (WL) controls access to the cell by turning on a transistor, which connects the cell’s capacitor to a bit line (BL). The BL is precharged to a reference voltage, typically VDD/2, before access. When the WL is activated, the BL voltage slightly shifts depending on whether the capacitor is charged (‘1’) or discharged (‘0’). A sense amplifier detects this small voltage difference, amplifies it to a full logic level, and restores the charge back to the capacitor. Cells are organized in a matrix of word lines (rows) and bit lines (columns), allowing the system to locate and address each stored bit precisely.
+images\DRAM_schematic.png
+
+Draw a schematic cross section of SRAM memory and explain how it works
+I know
+I know, I don't know
+In SRAM, each memory cell stores a bit of information as electric charge in bistable cicuit (a logical flip-flop) made out of transistors, which maintains its state as long as power is supplied. The logical flipflop maintains the state of the memory (0 or 1), no need for refreshing. During read, Writeline opens the cell and BL and BLC are pre-charged. If BL goes up and BLC goes down it means a logical 1 is stored in the cell. If BL goes down and BLC goes up it means a logical 0 is stored. An amplifier amplifies the small change to a 1 or a 0 which is then used later.  During write either BL is set to high or low (and BLC set to inverse of BL). The memory cells are organized in a matrix of word lines and bit lines, allowing data to be accessed efficiently by row and column addressing.
+images\SRAM_schematic.png
