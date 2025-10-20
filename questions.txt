@@ -1,0 +1,37 @@
+What is the two major mechanisms of carrier scattering in semiconductors?
+Phonon scattering and Ionized impurity scattering
+Phonon scattering and ionized scattering, Phonon scattering and impurity scattering, Thermal collisions, Phonon scattering and Ionized impurity scattering
+Phonons are particle representations of the vibrations of the atoms in the crystal. Crystal vibrations distort the periodic crystal structure and thus scatters the electron waves. Think of it as electrons scatters off of phonon particles. Ionized impurity scattering means that The fixed dopant ions (charged) affect the path of the electron as it travels. 
+
+What is the temperature dependence of Phonon scattering mobility?
+Decreasing proportional to T^-3/2
+Decreasing proportional to T^-3/2, Increasing proportional to T^3/2, Increasing proportional to T^5/2, Decreasing proportional to T^-3/2
+As temperature increase the phonon density increase and the speed of the electrons increase. Thus the mean free path of electrons colliding with phonons decrease with temperature and hence the mobility does too. Hint: Difference between mobility and scattering events
+
+What is the temperature dependence of Ionized impurity scattering mobility?
+Increasing proportional to T^3/2
+Decreasing proportional to T^-3/2, Increasing proportional to T^3/2, Increasing proportional to T^5/2, Decreasing proportional to T^-3/2
+The ionized dopant atoms remain more or less stationary. The speed of the electron increase with temperature. This means that as the electron travels it remains for a shorter time around a given ion and is thus less affected by coulumbic force. And so, ionized impurity scattering increase mobility increase with temperature.  Hint: Difference between mobility and scattering events
+
+What is the relationship between electron mobility and scattering mechanisms??
+Inversely proportional
+Proportional, Inversely proportional, No dependence, Exponential
+Electron mobility is determined by the mean free time. Higher mean free time betwen collisions means that the particle is more mobile. Scattering is related to how often collisions happen. Hence, inversely proportional.
+
+What is the temperature dependence of Ionized impurity scattering?
+Decreasing proportional to T^-3/2
+Decreasing proportional to T^-3/2, Increasing proportional to T^3/2, Increasing proportional to T^5/2, Decreasing proportional to T^-5/2
+The ionized dopant atoms remain more or less stationary. The speed of the electron increase with temperature. This means that as the electron travels it remains for a shorter time around a given ion and is thus less affected by coulumbic force. And so, ionized impurity scattering events decrease with temperature. Hint: Difference between mobility and scattering events
+
+What is the temperature dependence of Phonon scattering?
+Increasing proportional to T^3/2
+Decreasing proportional to T^-3/2, Increasing proportional to T^3/2, Increasing proportional to T^5/2, Decreasing proportional to T^-5/2
+As temperature increase the phonon density increase and the speed of the electrons increase. Thus the mean free path of electrons colliding with phonons decrease with temperature and hence the more scattering events happen. Hint: Difference between mobility and scattering events
+
+Explain how a solar cell generates photocurrent
+Photoelectric effect generates an electron hole pair in the semiconductor which, with some probability related to depletion widht, is separated in the depletion region. Generating a current.
+
+What are the key parameters that determine the contact resistivity of an Ohmic contact?
+Doping concentration and Schottky barrier height
+Doping concentration and Schottky barrier height, Depletion width and material combination, Doping concentration and Temperature
+Although dependence of contact resistivity is determined by a lot of factors. The main ones stated in the book is that Rc is proportional to exp(k * PhiB / sqrt(Nd)), k is some constant, PhiB barrier height and Nd doping concentration. It explicitly states "Low-resistance ohmic contacts are critical to the performance of high-current devices. The key ingredient of an ohmic contact is heavy doping of the semiconductor. A low Schottky barrier height is also desirable. The carrier transport mechanism is quantum-mechanical tunneling."
