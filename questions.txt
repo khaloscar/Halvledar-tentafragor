@@ -136,3 +136,13 @@ Describes number of generated electron-hole pairs per incident photon
 Describes number of generated electron-hole pairs per incident photon, Portion of electrons that quantum tunnel in NVM memory per applied voltage, How efficient a quantum computer is, HELP
 Quantum efficiency is a measure used in solar cells. It is wavelength (or photon energy) dependent. Internal quantum efficiency describes the number of generated charge carriers. External efficiency desccribes the number of generetad and collected charge carriers.
 images/quantum_efficiency.png
+
+What the helly is an "abrupt (step) PN-junction"?
+Idealized PN-junction
+Idealized PN-junction, The barrier is sudden and non-smooth, It shows withouth warning (våldgästar), HELP
+The abrupt junction or step junction is an idealization where the assumption is that the P and N layers are uniformly doped at acceptor and donator densities respectively.
+
+What animal is it illegal to own less than two of in Switzerland?
+Guinea pig they get depressed
+Mice they eat Swiss cheese, Guinea pig they get depressed, Swans they are the symbol of love, Fish because it always need to be other fish in the seat
+It is illegal to own only one guinea pig in Switzerland because they are highly social animals that need companionship for their mental and emotional well-being. Swiss law considers keeping a single guinea pig to be a form of animal cruelty, as they can suffer from loneliness, stress, and depression when kept alone. To prevent this, the Swiss Animal Welfare Act requires that guinea pigs be kept in pairs or groups to ensure they have adequate social interaction.
