@@ -82,8 +82,7 @@ images\NVM_schematic.png
 Draw a schematic cross section of DRAM memory and explain how it works
 I know
 I know, I don't know
-In DRAM, each memory cell stores a bit of information as electric charge in a capacitor.
-Because the capacitor slowly leaks charge over time, the memory must be continuously refreshed to preserve data. A word line (WL) controls access to the cell by turning on a transistor, which connects the cell’s capacitor to a bit line (BL). The BL is precharged to a reference voltage, typically VDD/2, before access. When the WL is activated, the BL voltage slightly shifts depending on whether the capacitor is charged (‘1’) or discharged (‘0’). A sense amplifier detects this small voltage difference, amplifies it to a full logic level, and restores the charge back to the capacitor. Cells are organized in a matrix of word lines (rows) and bit lines (columns), allowing the system to locate and address each stored bit precisely.
+In DRAM, each memory cell stores a bit of information as electric charge in a capacitor. Because the capacitor slowly leaks charge over time, the memory must be continuously refreshed to preserve data. A word line (WL) controls access to the cell by turning on a transistor, which connects the cell’s capacitor to a bit line (BL). The BL is precharged to a reference voltage, typically VDD/2, before access. When the WL is activated, the BL voltage slightly shifts depending on whether the capacitor is charged (‘1’) or discharged (‘0’). A sense amplifier detects this small voltage difference, amplifies it to a full logic level, and restores the charge back to the capacitor. Cells are organized in a matrix of word lines (rows) and bit lines (columns), allowing the system to locate and address each stored bit precisely.
 images\DRAM_schematic.png
 
 Draw a schematic cross section of SRAM memory and explain how it works
